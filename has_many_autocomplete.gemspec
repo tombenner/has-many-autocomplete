@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary     = "Autocomplete and sortable list for has_many associations"
   s.description = "Provides a form helper method that displays a sortable list of associated records from a has_many association and an autocomplete field that can be used to add records to the list."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.1.0"
